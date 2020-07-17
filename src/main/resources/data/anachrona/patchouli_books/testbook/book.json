@@ -1,5 +1,6 @@
 {
 	"name": "Anachrona",
 	"landing_text": "LANDING TEXT",
-	"version": 1
+	"version": 1,
+	"model": "anachrona:antikythera"
 }

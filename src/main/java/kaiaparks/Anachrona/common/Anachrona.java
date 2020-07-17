@@ -17,7 +17,7 @@ public class Anachrona {
     private static final Logger LOGGER = LogManager.getLogger();
 
     public Anachrona() {
-        LOGGER.debug("Hello from Example Mod!");
+        LOGGER.debug("Hello from Anachrona!");
         IEventBus modBus = FMLJavaModLoadingContext.get().getModEventBus();
         modBus.addGenericListener(Item.class, ModItems::registerItems);
     }
