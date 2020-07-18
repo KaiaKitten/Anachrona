@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "anachrona:items/antikythera"
+    "layer0": "anachrona:item/antikythera"
   }
 }

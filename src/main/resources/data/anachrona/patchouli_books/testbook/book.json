@@ -1,6 +1,12 @@
 {
-	"name": "Anachrona",
-	"landing_text": "LANDING TEXT",
+	"name": "item.anachrona.antikythera",
+	"landing_text": "The secrets of the antikythera has been revealed to you, prepare yourself for a journey to explore the use of anachronistic methods to discover hidden magic within clockworks machines.",
 	"version": 1,
-	"model": "anachrona:antikythera"
+	"model": "anachrona:antikythera",
+	"book_texture": "anachrona:textures/gui/tablet.png",
+	"text_color": "FFFFFF",
+	"header_color": "CCCCCC",
+	"nameplate_color": "000000",
+	"show_progress": false,
+	"custom_book_item": "anachrona:antikythera"
 }
