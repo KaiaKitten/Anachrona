@@ -1,0 +1,8 @@
+{
+  "ambientocclusion": false,
+  "variants": {
+    "": {
+      "model": "anachrona:block/catcher"
+    }
+  }
+}
