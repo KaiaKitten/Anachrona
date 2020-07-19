@@ -3,6 +3,7 @@
 </div>
     
 [![License](https://img.shields.io/badge/license-LGPL-brightgreen.svg)](https://github.com/kyahco/Anachrona/blob/master/LICENSE)
+[![MinecraftVersion](https://img.shields.io/static/v1?label=Minecraft&message=1.15.2&color=brightgreen)](http://files.minecraftforge.net/)
 
 Work in projress minecraft mod
 
