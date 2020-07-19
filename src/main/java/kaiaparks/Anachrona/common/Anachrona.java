@@ -30,8 +30,7 @@ public class Anachrona {
         MOD_EVENT_BUS.addGenericListener(Item.class, ModItems::registerItems);
         MOD_EVENT_BUS.addGenericListener(Block.class, ModBlocks::registerBlocks);
         MOD_EVENT_BUS.addGenericListener(Item.class, ModBlocks::registerItemBlocks);
-
-        DistExecutor.safeRunWhenOn(Dist.CLIENT, () -> Anachrona::registerClientOnlyEvents);
+        DistExecutor.runWhenOn(Dist.CLIENT, () -> Anachrona::registerClientOnlyEvents);
     }
 
 

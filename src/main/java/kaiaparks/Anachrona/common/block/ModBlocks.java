@@ -18,7 +18,7 @@ import static kaiaparks.Anachrona.common.lib.LibFunc.register;
 
 public class ModBlocks {
 
-    public static Block catcher = new BlockModGlass(Block.Properties.from(Blocks.GLASS).hardnessAndResistance(0.5F).sound(SoundType.WOOD));
+    public static Block catcher = new BlockCatcher(Block.Properties.create(Material.GLASS).doesNotBlockMovement().hardnessAndResistance(0.5F).sound(SoundType.WOOD));
 
     public static void registerBlocks(RegistryEvent.Register<Block> evt) {
         IForgeRegistry<Block> r = evt.getRegistry();
